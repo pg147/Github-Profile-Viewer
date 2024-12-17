@@ -7,6 +7,27 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+    <div id="container">
+        <div>
+            <h1>Github Profile Viewer</h1>
+            <div class="user-controls">
+                <input type="text" id="profile-input" placeholder="Enter a profile name">
+                <button id="search-btn" onclick="fetchProfile()">Search profile</button>
+            </div>
+            <div>
+                <h1 class="profile-head"></h1>
+                <div class="profile-pic">
+                    
+                </div>
+                <h1 class="profile-name"></h1>
+                <p class="profile-bio"></p>
+                <p class="profile-loc"></p>
+                <p class="profile-followers"></p>
+                <p class="profile-following"></p>
+                <p class="profile-repos"></p>
+            </div>
+        </div>
+    </div>
     <script src="/script.js"></script>
 </body>
 </html>
