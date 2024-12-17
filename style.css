@@ -1,0 +1,25 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-controls {
+    max-height: 60px;
+}
+
+.profile-pic {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 100%;
+}
+
+.profile-head {
+    font-size: 18pt;
+    font-weight: bold;
+}
